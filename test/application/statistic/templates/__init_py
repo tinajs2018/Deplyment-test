@@ -1,0 +1,5 @@
+from flask import Flask
+def create_appp():
+    app=Flask(__name__)
+    app.config['SECRET_KEY']='abcd'
+    return app
